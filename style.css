@@ -1,0 +1,118 @@
+  
+/* *********************** MAIN ************************ */
+.main_layout{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    width: 748px;
+  }
+
+  
+  /* 1 Logo */
+  .full_logo{
+    position: relative;
+    left: 354px;
+    height: 86px;
+    text-align: center;
+  }
+  #full_logo_img{
+    width: 295px;
+  }
+  
+
+  /* 2 Search bar */
+  .search_bar{
+    margin-top: 29px;
+    margin-left: 354px;
+    
+    width: 748px;
+    height: 48px;
+  
+    border: 1px solid gray;
+    border-radius: 50px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input{
+    width: 666px;
+    height: 45px;
+  
+    border: none;
+    outline: none;
+  }
+  
+  .search_icon > button{
+    width: 40px;
+    height: 43px;
+    
+    border: none;
+    background-color: #fff;
+  }
+  
+
+  /* 3 Page list */
+  .page_list{
+    margin-top: 30px;
+    margin-left: 354px; 
+    margin-bottom: 25px;
+    width: 748px;
+  }
+
+  .page_list .p-2{
+    border: none;
+    border-radius: 8px;
+    
+    width: 105px;
+    height: 90px;
+    background-color: rgb(245, 245, 245);
+  }
+  
+
+/*  4 idea_box */
+.idea_box{
+    position: relative;
+    left: 354px;
+
+    width: 748px;
+    height: 36px;
+
+    border-radius: 15px;
+
+    text-decoration: none;
+    text-align-last: left;
+    background-image: linear-gradient(to right, rgba(150,201,62), rgba(80,186, 105));
+}
+.idea_box>a{
+  width: 748px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  height: 100%;
+}
+.idea_box>a>img{
+    width: 24px;
+    height: 24px;
+}
+.idea_box a{
+    color: #fff;
+}
+.idea_box a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.idea_box a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.idea_box a:hover {
+    text-decoration: none;
+}
+
+.idea_box a:active {
+    text-decoration: none;
+}

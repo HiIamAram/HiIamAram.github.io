@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cốc cốc!</title>
+    <link rel="stylesheet" href="stylehd.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleft.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
+</head>
+
+
+<body>
+    <header>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="img/coccoc_apps_list_icon.svg" alt=""></button>
+            <div id="myDropdown" class="dropdown-content">
+            <!-- apps-list-icon -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-4"> <a href="#search"><img src="hd_img/coccoc_icon.svg" alt="">Tìm kiếm</a></div>
+                    <div class="col-4"> <a href="#study"><img src="hd_img/graduate-hat.svg" alt="">Học tập</a></div>
+                    <div class="col-4"> <a href="#location"><img src="hd_img/location_icon.svg" alt="">Bản đồ</a></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4"><a href="#video"><img src="hd_img/video_icon.svg" alt="">Video</a></div>
+                    <div class="col-4"><a href="#corona"><img src="/hd_img/corona_icon.svg" alt="">Covid</a></div>
+                    <div class="col-4"><a href="#ball"><img src="hd_img/ball_icon.svg" alt="">Bóng đá</a></div>
+
+                <div class="row">
+                    <div class="col-4"><a href="#weather"><img src="hd_img/weather_icon.svg" alt="">Thời tiết</a></div>
+                    <div class="col-4"><a href="#book"><img src="hd_img/book_icon.svg" alt="">Công thức nấu ăn</a></div>
+                    <div class="col-4"><a href="#lottery"><img src="hd_img/lottery.svg" alt="">Xổ số</a></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4"> <a href="#note"><img src="hd_img/note_icon.svg" alt="">Giải bài tập</a></div>
+                    <div class="col-4"> <a href="#film"><img src="hd_img/film_icon.svg" alt="">Phim trực tuyến</a></div>
+                </div>
+            </div>
+            </div>
+          </div>
+    </header>
+
+    <main>
+        <div class="main_layout">
+            <div class="container mt-3">
+                <div class="d-flex flex-column mb-3">
+                    <div class="p-2">
+                            <div class="full_logo">
+                                <img id="full_logo_img" src="img/full_coccoc_icon.svg" alt="full_coccoc_icon">
+                            </div>
+                    </div>
+
+                    <div class="p-2">
+                        <div class="search_bar">
+                            <input type="text" placeholder="Search..." name="box">
+                            <div class="search_icon">
+                                <button><img src="img/find_icon.svg" alt="find_icon"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-2">  
+                        <div class="page_list">
+                            <div class="d-flex justify-content-between">
+                                <div class="p-2"><a href="#"><img src="img/weather_icon.svg" alt="Thời tiết"><br>Thời tiết</a></div>
+                                <div class="p-2"><a href="#"><img src="img/ball_icon.svg" alt="Bóng đá"><br>Bóng đá</a></div>
+                                <div class="p-2"><a href="#"><img src="img/graduation-cap_icon.svg" alt="Học tập"><br>Học tập</a></div>
+                                <div class="p-2"><a href="#"><img src="img/book_icon.svg" alt="Nấu ăn"><br>Nấu ăn</a></div>
+                                <div class="p-2"><a href="#"><img src="img/corona_icon.svg" alt="Covid-19"><br>Covid-19</a></div>
+                                <div class="p-2"><a href="#"><img src="img/moon_icon.svg" alt="Âm lịch"><br>Âm lịch</a></div>
+                            </div>
+                        </div>
+                    </div>
+          
+                    <div class="p-2">
+                        <div class="idea_box">
+                            <a href="#idea"><img src="img/light-idea_icon.svg" alt="">&nbsp; Làm thế nào để học môn Hóa tốt hơn ?!</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div class="footer_layout">
+            <div class="contact">
+                <!-- <button><img src="img/social_icon.svg" alt="contact">   Gửi phản hồi</button> -->
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Mọi phản hồi đều được Cốc Cốc ghi nhận và trân trọng"> <img src="img/social_icon.svg" alt="contact"> Gửi phản hồi</a>
+            </div>
+            <div class="footer_list_items">
+                    <a id="idne" href="#">Trợ giúp</a> &nbsp;
+                    <a href="#">Về Cốc Cốc</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Đặt quảng cáo</a>
+                    <a href="#">Tuyển dụng</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        };
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+</body>
+</html>

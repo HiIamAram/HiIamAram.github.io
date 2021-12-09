@@ -1,0 +1,32 @@
+/* *********************** FOOTER ************************ */
+.footer_layout{
+    
+    position: relative;
+    display: flex;
+    top: 190px;
+}
+
+.footer_list_items a{
+    left: 162px;
+    color: rgb(48, 47, 47);
+    text-decoration: none;
+    margin-left: 16px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
